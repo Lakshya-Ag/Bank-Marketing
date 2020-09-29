@@ -41,4 +41,17 @@ Bank client data
 
 - y: has the client subscribed a term deposit? (binary: "yes","no")
 
-## objectives
+## Objectives
+You are required to prepare a well-commented an interactive python notebook as your solution to this problem statement. The notebook must meet the following objectives:
+
+- Clean the data and drop useless columns.
+- Make an EDA report, i.e., perform a univariate and bivariate analysis. Also, derive new features based on the given features, remove outliers and correlated variables if necessary.
+- Visualize the distributions of various features and correlations between them.
+- Perform feature engineering to extract the correct features for the model.
+- Build a logistic regression model
+- Evaluate the model used.
+
+## Model Evaluation
+When you're done with the model building and residual analysis and have made predictions on the test set, just make sure you use y_test and y_pred.
+
+where y_test is the test data set for the target variable, and y_pred is the variable containing the predicted values of the target variable on the test set. Also, remember if the VIF for the selected features is not coming high always check the p-values of the variables before applying the model on test data.
